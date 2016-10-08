@@ -32,14 +32,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		041EDBC91A625CEC00ECDA48 /* LoveInASnap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoveInASnap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		041EDBC91A625CEC00ECDA48 /* OpTech.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpTech.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		041EDBCD1A625CEC00ECDA48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		041EDBCE1A625CEC00ECDA48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		041EDBD01A625CEC00ECDA48 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		041EDBD31A625CEC00ECDA48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		041EDBD51A625CEC00ECDA48 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		041EDBD81A625CEC00ECDA48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		041EDBDE1A625CED00ECDA48 /* LoveInASnapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoveInASnapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		041EDBDE1A625CED00ECDA48 /* OpTechTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpTechTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		041EDBE31A625CED00ECDA48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		041EDBE41A625CED00ECDA48 /* LoveInASnapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoveInASnapTests.swift; sourceTree = "<group>"; };
 		041EDBEE1A625D9200ECDA48 /* Envelope.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Envelope.png; sourceTree = "<group>"; };
@@ -88,8 +88,8 @@
 		041EDBCA1A625CEC00ECDA48 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				041EDBC91A625CEC00ECDA48 /* LoveInASnap.app */,
-				041EDBDE1A625CED00ECDA48 /* LoveInASnapTests.xctest */,
+				041EDBC91A625CEC00ECDA48 /* OpTech.app */,
+				041EDBDE1A625CED00ECDA48 /* OpTechTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -148,9 +148,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		041EDBC81A625CEC00ECDA48 /* LoveInASnap */ = {
+		041EDBC81A625CEC00ECDA48 /* OpTech */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 041EDBE81A625CED00ECDA48 /* Build configuration list for PBXNativeTarget "LoveInASnap" */;
+			buildConfigurationList = 041EDBE81A625CED00ECDA48 /* Build configuration list for PBXNativeTarget "OpTech" */;
 			buildPhases = (
 				041EDBC51A625CEC00ECDA48 /* Sources */,
 				041EDBC61A625CEC00ECDA48 /* Frameworks */,
@@ -160,14 +160,14 @@
 			);
 			dependencies = (
 			);
-			name = LoveInASnap;
+			name = OpTech;
 			productName = LoveInASnap;
-			productReference = 041EDBC91A625CEC00ECDA48 /* LoveInASnap.app */;
+			productReference = 041EDBC91A625CEC00ECDA48 /* OpTech.app */;
 			productType = "com.apple.product-type.application";
 		};
-		041EDBDD1A625CED00ECDA48 /* LoveInASnapTests */ = {
+		041EDBDD1A625CED00ECDA48 /* OpTechTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 041EDBEB1A625CED00ECDA48 /* Build configuration list for PBXNativeTarget "LoveInASnapTests" */;
+			buildConfigurationList = 041EDBEB1A625CED00ECDA48 /* Build configuration list for PBXNativeTarget "OpTechTests" */;
 			buildPhases = (
 				041EDBDA1A625CED00ECDA48 /* Sources */,
 				041EDBDB1A625CED00ECDA48 /* Frameworks */,
@@ -178,9 +178,9 @@
 			dependencies = (
 				041EDBE01A625CED00ECDA48 /* PBXTargetDependency */,
 			);
-			name = LoveInASnapTests;
+			name = OpTechTests;
 			productName = LoveInASnapTests;
-			productReference = 041EDBDE1A625CED00ECDA48 /* LoveInASnapTests.xctest */;
+			productReference = 041EDBDE1A625CED00ECDA48 /* OpTechTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -195,17 +195,18 @@
 				TargetAttributes = {
 					041EDBC81A625CEC00ECDA48 = {
 						CreatedOnToolsVersion = 6.1.1;
-						DevelopmentTeam = DW6U68QQGB;
+						DevelopmentTeam = CVQAMENUR3;
 						LastSwiftMigration = 0800;
 					};
 					041EDBDD1A625CED00ECDA48 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = CVQAMENUR3;
 						LastSwiftMigration = 0800;
 						TestTargetID = 041EDBC81A625CEC00ECDA48;
 					};
 				};
 			};
-			buildConfigurationList = 041EDBC41A625CEC00ECDA48 /* Build configuration list for PBXProject "LoveInASnap" */;
+			buildConfigurationList = 041EDBC41A625CEC00ECDA48 /* Build configuration list for PBXProject "OpTech" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -218,8 +219,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				041EDBC81A625CEC00ECDA48 /* LoveInASnap */,
-				041EDBDD1A625CED00ECDA48 /* LoveInASnapTests */,
+				041EDBC81A625CEC00ECDA48 /* OpTech */,
+				041EDBDD1A625CED00ECDA48 /* OpTechTests */,
 			);
 		};
 /* End PBXProject section */
@@ -270,7 +271,7 @@
 /* Begin PBXTargetDependency section */
 		041EDBE01A625CED00ECDA48 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 041EDBC81A625CEC00ECDA48 /* LoveInASnap */;
+			target = 041EDBC81A625CEC00ECDA48 /* OpTech */;
 			targetProxy = 041EDBDF1A625CED00ECDA48 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -388,7 +389,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_CXX_LIBRARY = "compiler-default";
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = DW6U68QQGB;
+				DEVELOPMENT_TEAM = CVQAMENUR3;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -397,7 +398,7 @@
 				INFOPLIST_FILE = LoveInASnap/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				"OTHER_LDFLAGS[arch=*]" = "-lstdc++";
-				PRODUCT_BUNDLE_IDENTIFIER = "StandableInc.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.OpTech;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "LoveInASnap-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -411,7 +412,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_CXX_LIBRARY = "compiler-default";
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = DW6U68QQGB;
+				DEVELOPMENT_TEAM = CVQAMENUR3;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -420,7 +421,7 @@
 				INFOPLIST_FILE = LoveInASnap/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				"OTHER_LDFLAGS[arch=*]" = "-lstdc++";
-				PRODUCT_BUNDLE_IDENTIFIER = "StandableInc.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.OpTech;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "LoveInASnap-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
@@ -431,6 +432,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = CVQAMENUR3;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -444,7 +446,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "StandableInc.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoveInASnap.app/LoveInASnap";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpTech.app/OpTech";
 			};
 			name = Debug;
 		};
@@ -452,6 +454,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = CVQAMENUR3;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -461,14 +464,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "StandableInc.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoveInASnap.app/LoveInASnap";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpTech.app/OpTech";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		041EDBC41A625CEC00ECDA48 /* Build configuration list for PBXProject "LoveInASnap" */ = {
+		041EDBC41A625CEC00ECDA48 /* Build configuration list for PBXProject "OpTech" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				041EDBE61A625CED00ECDA48 /* Debug */,
@@ -477,7 +480,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		041EDBE81A625CED00ECDA48 /* Build configuration list for PBXNativeTarget "LoveInASnap" */ = {
+		041EDBE81A625CED00ECDA48 /* Build configuration list for PBXNativeTarget "OpTech" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				041EDBE91A625CED00ECDA48 /* Debug */,
@@ -486,7 +489,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		041EDBEB1A625CED00ECDA48 /* Build configuration list for PBXNativeTarget "LoveInASnapTests" */ = {
+		041EDBEB1A625CED00ECDA48 /* Build configuration list for PBXNativeTarget "OpTechTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				041EDBEC1A625CED00ECDA48 /* Debug */,

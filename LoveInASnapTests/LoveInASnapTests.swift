@@ -1,6 +1,6 @@
 //
-//  LoveInASnapTests.swift
-//  LoveInASnapTests
+//  OpTechTests.swift
+//  OpTechTests
 //
 //  Created by Max Albert & Ben Freiband
 //  With <3 at MHacks
@@ -10,7 +10,7 @@
 import UIKit
 import XCTest
 
-class LoveInASnapTests: XCTestCase {
+class OpTechTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

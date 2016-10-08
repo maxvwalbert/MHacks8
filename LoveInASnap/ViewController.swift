@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  LoveInASnap
+//  OpTech
 //
 //  Created by Max Albert & Ben Freiband
 //  With <3 at MHacks
