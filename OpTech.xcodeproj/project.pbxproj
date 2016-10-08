@@ -15,6 +15,7 @@
 		041EDBE51A625CED00ECDA48 /* LoveInASnapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041EDBE41A625CED00ECDA48 /* LoveInASnapTests.swift */; };
 		041EDBF01A625D9200ECDA48 /* Envelope.png in Resources */ = {isa = PBXBuildFile; fileRef = 041EDBEE1A625D9200ECDA48 /* Envelope.png */; };
 		041EDBF11A625D9200ECDA48 /* Swap.png in Resources */ = {isa = PBXBuildFile; fileRef = 041EDBEF1A625D9200ECDA48 /* Swap.png */; };
+		7807BD651DA9845C00921FCF /* LOTUS.png in Resources */ = {isa = PBXBuildFile; fileRef = 7807BD641DA9845C00921FCF /* LOTUS.png */; };
 		780B0ABF1DA9214B00C804F8 /* TesseractOCR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 780B0ABE1DA9214B00C804F8 /* TesseractOCR.framework */; };
 		780B0AC11DA921BF00C804F8 /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = 780B0AC01DA921BF00C804F8 /* tessdata */; };
 		780B0AC41DA922AD00C804F8 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 780B0AC31DA922AD00C804F8 /* libstdc++.6.0.9.tbd */; };
@@ -44,6 +45,7 @@
 		041EDBE41A625CED00ECDA48 /* LoveInASnapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoveInASnapTests.swift; sourceTree = "<group>"; };
 		041EDBEE1A625D9200ECDA48 /* Envelope.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Envelope.png; sourceTree = "<group>"; };
 		041EDBEF1A625D9200ECDA48 /* Swap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Swap.png; sourceTree = "<group>"; };
+		7807BD641DA9845C00921FCF /* LOTUS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LOTUS.png; path = ../../../LOTUS.png; sourceTree = "<group>"; };
 		780B0ABE1DA9214B00C804F8 /* TesseractOCR.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TesseractOCR.framework; sourceTree = "<group>"; };
 		780B0AC01DA921BF00C804F8 /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = "<group>"; };
 		780B0AC31DA922AD00C804F8 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
@@ -113,6 +115,7 @@
 				780B0AC01DA921BF00C804F8 /* tessdata */,
 				780B0ABE1DA9214B00C804F8 /* TesseractOCR.framework */,
 				041EDBEE1A625D9200ECDA48 /* Envelope.png */,
+				7807BD641DA9845C00921FCF /* LOTUS.png */,
 				041EDBEF1A625D9200ECDA48 /* Swap.png */,
 				041EDBCD1A625CEC00ECDA48 /* Info.plist */,
 			);
@@ -195,12 +198,12 @@
 				TargetAttributes = {
 					041EDBC81A625CEC00ECDA48 = {
 						CreatedOnToolsVersion = 6.1.1;
-						DevelopmentTeam = CVQAMENUR3;
+						DevelopmentTeam = DW6U68QQGB;
 						LastSwiftMigration = 0800;
 					};
 					041EDBDD1A625CED00ECDA48 = {
 						CreatedOnToolsVersion = 6.1.1;
-						DevelopmentTeam = CVQAMENUR3;
+						DevelopmentTeam = DW6U68QQGB;
 						LastSwiftMigration = 0800;
 						TestTargetID = 041EDBC81A625CEC00ECDA48;
 					};
@@ -233,6 +236,7 @@
 				041EDBD41A625CEC00ECDA48 /* Main.storyboard in Resources */,
 				041EDBF01A625D9200ECDA48 /* Envelope.png in Resources */,
 				041EDBF11A625D9200ECDA48 /* Swap.png in Resources */,
+				7807BD651DA9845C00921FCF /* LOTUS.png in Resources */,
 				041EDBD91A625CEC00ECDA48 /* LaunchScreen.xib in Resources */,
 				041EDBD61A625CEC00ECDA48 /* Images.xcassets in Resources */,
 				780B0AC11DA921BF00C804F8 /* tessdata in Resources */,
@@ -389,7 +393,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_CXX_LIBRARY = "compiler-default";
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = CVQAMENUR3;
+				DEVELOPMENT_TEAM = DW6U68QQGB;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -412,7 +416,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_CXX_LIBRARY = "compiler-default";
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = CVQAMENUR3;
+				DEVELOPMENT_TEAM = DW6U68QQGB;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -432,7 +436,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = CVQAMENUR3;
+				DEVELOPMENT_TEAM = DW6U68QQGB;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -454,7 +458,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = CVQAMENUR3;
+				DEVELOPMENT_TEAM = DW6U68QQGB;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
