@@ -10,7 +10,7 @@
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="LoveInASnap" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="OpTech" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="TyZ-Rd-pJC"/>
                         <viewControllerLayoutGuide type="bottom" id="03X-da-6SF"/>
@@ -28,42 +28,12 @@
                                     <action selector="backgroundTapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="cZ6-qc-X9S"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Snap/upload a clear picture of your poem then edit below. Tap outside of the text box once your sweet nothings are complete." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="6ma-5u-o2n">
-                                <fontDescription key="fontDescription" name="Cochin" family="Cochin" pointSize="14"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="OPTECH" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="6ma-5u-o2n">
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="43"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D30-HR-s1J">
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="42" id="ICa-N8-17i"/>
-                                    <constraint firstAttribute="width" constant="258" id="oss-AX-zZL"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Cochin" family="Cochin" pointSize="16"/>
-                                <inset key="titleEdgeInsets" minX="-570" minY="0.0" maxX="0.0" maxY="0.0"/>
-                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="185" maxY="0.0"/>
-                                <state key="normal" title="Share with your Beloved" image="Envelope.png">
-                                    <color key="titleColor" red="0.20823948410000001" green="0.48525439399999998" blue="0.94421184390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="sharePoem:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="7ED-do-cDh"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lBZ-eo-d7T">
-                                <frame key="frameInset" minX="245" minY="394" width="40" height="40"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="40" id="Guu-N3-3YH"/>
-                                    <constraint firstAttribute="height" constant="40" id="s2L-3a-N1x"/>
-                                </constraints>
-                                <state key="normal" image="Swap.png">
-                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="swapText:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="DY5-y1-7pc"/>
-                                </connections>
-                            </button>
-                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3C8-6d-WmS">
-                                <frame key="frameInset" minX="36" minY="88" width="248" height="221"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3C8-6d-WmS">
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LVg-ev-ijX">
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -84,61 +54,41 @@
                                     <constraint firstAttribute="bottom" secondItem="LVg-ev-ijX" secondAttribute="bottom" constant="1" id="gdx-DP-vDF"/>
                                 </constraints>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="InM-Rb-jXE">
-                                <frame key="frameInset" minX="41" minY="339" width="239" height="30"/>
-                                <fontDescription key="fontDescription" name="Cochin-Bold" family="Cochin" pointSize="15"/>
-                                <state key="normal" title="Snap/Upload a picture of your Poem">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="InM-Rb-jXE">
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="15"/>
+                                <state key="normal" title="Snap/Upload a picture to music">
                                     <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="photoAction:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="l5O-4P-qVz"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Find this..." minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="THZ-rt-8Es">
-                                <frame key="frameInset" minX="37" minY="399" width="96" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <textInputTraits key="textInputTraits"/>
-                                <connections>
-                                    <outlet property="delegate" destination="vXZ-lx-hvc" id="xhz-Uc-BOh"/>
-                                </connections>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Replace with..." minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="02E-0U-47x">
-                                <frame key="frameInset" minX="141" minY="399" width="96" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <textInputTraits key="textInputTraits"/>
-                                <connections>
-                                    <outlet property="delegate" destination="vXZ-lx-hvc" id="0XV-rl-Emi"/>
-                                </connections>
-                            </textField>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="FZj-gN-8LJ">
+                                <frame key="frameInset" minX="35" minY="393" width="305" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <segments>
+                                    <segment title="Pokemon"/>
+                                    <segment title="Mario Kart"/>
+                                    <segment title="Little Mermaid"/>
+                                </segments>
+                            </segmentedControl>
                         </subviews>
                         <color key="backgroundColor" red="0.90836154400000002" green="0.9329398404" blue="0.94421184390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="lBZ-eo-d7T" firstAttribute="centerY" secondItem="02E-0U-47x" secondAttribute="centerY" id="33i-sc-oX6"/>
-                            <constraint firstItem="THZ-rt-8Es" firstAttribute="leading" secondItem="LVg-ev-ijX" secondAttribute="leading" id="6DN-DY-tQt"/>
-                            <constraint firstItem="THZ-rt-8Es" firstAttribute="centerY" secondItem="02E-0U-47x" secondAttribute="centerY" id="718-SJ-j2u"/>
-                            <constraint firstItem="6ma-5u-o2n" firstAttribute="top" secondItem="TyZ-Rd-pJC" secondAttribute="bottom" constant="10" id="AOU-ke-QZo"/>
-                            <constraint firstItem="3C8-6d-WmS" firstAttribute="top" secondItem="6ma-5u-o2n" secondAttribute="bottom" constant="10" id="LN5-fA-PiB"/>
+                            <constraint firstItem="6ma-5u-o2n" firstAttribute="top" secondItem="TyZ-Rd-pJC" secondAttribute="bottom" id="AOU-ke-QZo"/>
+                            <constraint firstItem="3C8-6d-WmS" firstAttribute="top" secondItem="6ma-5u-o2n" secondAttribute="bottom" constant="53" id="LN5-fA-PiB"/>
                             <constraint firstAttribute="trailingMargin" secondItem="6ma-5u-o2n" secondAttribute="trailing" constant="10" id="MH5-UA-c5Q"/>
-                            <constraint firstItem="lBZ-eo-d7T" firstAttribute="leading" secondItem="02E-0U-47x" secondAttribute="trailing" constant="8" id="RQI-fV-XKF"/>
                             <constraint firstItem="6ma-5u-o2n" firstAttribute="leading" secondItem="Pm6-fr-Yvv" secondAttribute="leadingMargin" constant="10" id="TTv-fe-RO6"/>
                             <constraint firstItem="BSw-gM-CTX" firstAttribute="top" secondItem="Pm6-fr-Yvv" secondAttribute="top" id="YMC-bm-gcr"/>
                             <constraint firstAttribute="trailing" secondItem="BSw-gM-CTX" secondAttribute="trailing" id="YgM-pL-Y8O"/>
                             <constraint firstItem="InM-Rb-jXE" firstAttribute="centerX" secondItem="BSw-gM-CTX" secondAttribute="centerX" id="aRN-S1-Gmx"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="D30-HR-s1J" secondAttribute="trailing" constant="-16" id="cvG-IS-ZGQ"/>
-                            <constraint firstItem="InM-Rb-jXE" firstAttribute="top" secondItem="3C8-6d-WmS" secondAttribute="bottom" constant="30" id="cyP-rk-1S5"/>
-                            <constraint firstItem="LVg-ev-ijX" firstAttribute="trailing" secondItem="lBZ-eo-d7T" secondAttribute="trailing" constant="-2" id="hEo-mN-qVi"/>
-                            <constraint firstItem="02E-0U-47x" firstAttribute="leading" secondItem="THZ-rt-8Es" secondAttribute="trailing" constant="8" id="k9h-iN-Nin"/>
-                            <constraint firstItem="THZ-rt-8Es" firstAttribute="top" secondItem="InM-Rb-jXE" secondAttribute="bottom" constant="30" id="qiE-EJ-bBY"/>
+                            <constraint firstItem="InM-Rb-jXE" firstAttribute="top" secondItem="3C8-6d-WmS" secondAttribute="bottom" constant="135.5" id="cyP-rk-1S5"/>
                             <constraint firstItem="BSw-gM-CTX" firstAttribute="leading" secondItem="Pm6-fr-Yvv" secondAttribute="leading" id="tRI-ZL-9qv"/>
                             <constraint firstAttribute="centerX" secondItem="3C8-6d-WmS" secondAttribute="centerX" id="tyq-35-cmI"/>
                             <constraint firstItem="03X-da-6SF" firstAttribute="top" secondItem="BSw-gM-CTX" secondAttribute="bottom" id="xlN-o0-UGu"/>
-                            <constraint firstItem="03X-da-6SF" firstAttribute="top" secondItem="D30-HR-s1J" secondAttribute="bottom" constant="6" id="yux-r7-uTA"/>
-                            <constraint firstItem="BSw-gM-CTX" firstAttribute="centerX" secondItem="02E-0U-47x" secondAttribute="centerX" constant="-28.5" id="zeF-iu-BWZ"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="findTextField" destination="THZ-rt-8Es" id="BaA-kh-Id3"/>
-                        <outlet property="replaceTextField" destination="02E-0U-47x" id="pX8-PP-9nE"/>
                         <outlet property="textView" destination="LVg-ev-ijX" id="hkC-pT-NGf"/>
                         <outlet property="topMarginConstraint" destination="AOU-ke-QZo" id="3De-8G-85L"/>
                     </connections>
@@ -148,10 +98,6 @@
             <point key="canvasLocation" x="112" y="281.16000000000003"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="Envelope.png" width="653" height="373"/>
-        <image name="Swap.png" width="800" height="800"/>
-    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

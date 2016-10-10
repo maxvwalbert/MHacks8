@@ -9,6 +9,9 @@
 
 import UIKit
 import Foundation
+import AVFoundation
+import AudioToolbox
+import MusicKit
 
 class ViewController: UIViewController, UITextViewDelegate, UINavigationControllerDelegate {
   
@@ -198,5 +201,20 @@ extension ViewController: UIImagePickerControllerDelegate {
     textView.text = tesseract.recognizedText
     // 8
     removeActivityIndicator()
+    let textTokens = textView.text.components(separatedBy: " ")
+    
+    let synth = AVSpeechSynthesizer()
+    let midi = MIDI(name: "TV_Themes_-_Pokemon.mid")
+    
+    for token in textTokens {
+      let utterance = AVSpeechUtterance(string: token)
+      utterance.pitchMultiplier = 1.3 //midi
+      utterance.rate = AVSpeechUtteranceMinimumSpeechRate * 1.5 //midi
+      synth.speak(utterance)
+    }
+    
   }
+  
+
 }
+

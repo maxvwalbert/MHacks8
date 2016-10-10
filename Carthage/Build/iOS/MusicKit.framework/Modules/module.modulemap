@@ -1,0 +1,10 @@
+framework module MusicKit {
+  umbrella header "MusicKit.h"
+
+  export *
+  module * { export * }
+}
+
+module MusicKit.Swift {
+    header "MusicKit-Swift.h"
+}

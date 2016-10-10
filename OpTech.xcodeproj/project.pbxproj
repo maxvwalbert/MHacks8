@@ -8,18 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		041EDBCF1A625CEC00ECDA48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041EDBCE1A625CEC00ECDA48 /* AppDelegate.swift */; };
-		041EDBD11A625CEC00ECDA48 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041EDBD01A625CEC00ECDA48 /* ViewController.swift */; };
 		041EDBD41A625CEC00ECDA48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041EDBD21A625CEC00ECDA48 /* Main.storyboard */; };
 		041EDBD61A625CEC00ECDA48 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 041EDBD51A625CEC00ECDA48 /* Images.xcassets */; };
 		041EDBD91A625CEC00ECDA48 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 041EDBD71A625CEC00ECDA48 /* LaunchScreen.xib */; };
 		041EDBE51A625CED00ECDA48 /* LoveInASnapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041EDBE41A625CED00ECDA48 /* LoveInASnapTests.swift */; };
 		041EDBF01A625D9200ECDA48 /* Envelope.png in Resources */ = {isa = PBXBuildFile; fileRef = 041EDBEE1A625D9200ECDA48 /* Envelope.png */; };
 		041EDBF11A625D9200ECDA48 /* Swap.png in Resources */ = {isa = PBXBuildFile; fileRef = 041EDBEF1A625D9200ECDA48 /* Swap.png */; };
-		7807BD651DA9845C00921FCF /* LOTUS.png in Resources */ = {isa = PBXBuildFile; fileRef = 7807BD641DA9845C00921FCF /* LOTUS.png */; };
 		780B0ABF1DA9214B00C804F8 /* TesseractOCR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 780B0ABE1DA9214B00C804F8 /* TesseractOCR.framework */; };
 		780B0AC11DA921BF00C804F8 /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = 780B0AC01DA921BF00C804F8 /* tessdata */; };
 		780B0AC41DA922AD00C804F8 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 780B0AC31DA922AD00C804F8 /* libstdc++.6.0.9.tbd */; };
 		780B0AC61DA922BC00C804F8 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 780B0AC51DA922BC00C804F8 /* CoreImage.framework */; };
+		B5618BFA1DAA86BC00D5034B /* TV_Themes_-_Pokemon.mid in Resources */ = {isa = PBXBuildFile; fileRef = B5618BF91DAA86BC00D5034B /* TV_Themes_-_Pokemon.mid */; };
+		B5618BFC1DAA89B500D5034B /* MusicKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5618BFB1DAA89B500D5034B /* MusicKit.framework */; };
+		B5618BFE1DAA8BC200D5034B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5618BFD1DAA8BC200D5034B /* AudioToolbox.framework */; };
+		B56EDB1B1DAA37440040D37B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041EDBD01A625CEC00ECDA48 /* ViewController.swift */; };
+		B5AAD9691DA9F65D0049F730 /* LOTUS.png in Resources */ = {isa = PBXBuildFile; fileRef = B5AAD9681DA9F65D0049F730 /* LOTUS.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,12 +48,15 @@
 		041EDBE41A625CED00ECDA48 /* LoveInASnapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoveInASnapTests.swift; sourceTree = "<group>"; };
 		041EDBEE1A625D9200ECDA48 /* Envelope.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Envelope.png; sourceTree = "<group>"; };
 		041EDBEF1A625D9200ECDA48 /* Swap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Swap.png; sourceTree = "<group>"; };
-		7807BD641DA9845C00921FCF /* LOTUS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LOTUS.png; path = ../../../LOTUS.png; sourceTree = "<group>"; };
 		780B0ABE1DA9214B00C804F8 /* TesseractOCR.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TesseractOCR.framework; sourceTree = "<group>"; };
 		780B0AC01DA921BF00C804F8 /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = "<group>"; };
 		780B0AC31DA922AD00C804F8 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
 		780B0AC51DA922BC00C804F8 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
 		780B0AC71DA925BA00C804F8 /* LoveInASnap-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LoveInASnap-Bridging-Header.h"; sourceTree = "<group>"; };
+		B5618BF91DAA86BC00D5034B /* TV_Themes_-_Pokemon.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; name = "TV_Themes_-_Pokemon.mid"; path = "../../../../../Desktop/TV_Themes_-_Pokemon.mid"; sourceTree = "<group>"; };
+		B5618BFB1DAA89B500D5034B /* MusicKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MusicKit.framework; path = Carthage/Build/iOS/MusicKit.framework; sourceTree = "<group>"; };
+		B5618BFD1DAA8BC200D5034B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		B5AAD9681DA9F65D0049F730 /* LOTUS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LOTUS.png; path = ../../../../../Downloads/LOTUS.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5618BFE1DAA8BC200D5034B /* AudioToolbox.framework in Frameworks */,
+				B5618BFC1DAA89B500D5034B /* MusicKit.framework in Frameworks */,
 				780B0AC61DA922BC00C804F8 /* CoreImage.framework in Frameworks */,
 				780B0AC41DA922AD00C804F8 /* libstdc++.6.0.9.tbd in Frameworks */,
 				780B0ABF1DA9214B00C804F8 /* TesseractOCR.framework in Frameworks */,
@@ -115,8 +123,9 @@
 				780B0AC01DA921BF00C804F8 /* tessdata */,
 				780B0ABE1DA9214B00C804F8 /* TesseractOCR.framework */,
 				041EDBEE1A625D9200ECDA48 /* Envelope.png */,
-				7807BD641DA9845C00921FCF /* LOTUS.png */,
+				B5AAD9681DA9F65D0049F730 /* LOTUS.png */,
 				041EDBEF1A625D9200ECDA48 /* Swap.png */,
+				B5618BF91DAA86BC00D5034B /* TV_Themes_-_Pokemon.mid */,
 				041EDBCD1A625CEC00ECDA48 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -142,6 +151,8 @@
 		780B0AC21DA922AD00C804F8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B5618BFD1DAA8BC200D5034B /* AudioToolbox.framework */,
+				B5618BFB1DAA89B500D5034B /* MusicKit.framework */,
 				780B0AC51DA922BC00C804F8 /* CoreImage.framework */,
 				780B0AC31DA922AD00C804F8 /* libstdc++.6.0.9.tbd */,
 			);
@@ -198,12 +209,12 @@
 				TargetAttributes = {
 					041EDBC81A625CEC00ECDA48 = {
 						CreatedOnToolsVersion = 6.1.1;
-						DevelopmentTeam = DW6U68QQGB;
+						DevelopmentTeam = CVQAMENUR3;
 						LastSwiftMigration = 0800;
 					};
 					041EDBDD1A625CED00ECDA48 = {
 						CreatedOnToolsVersion = 6.1.1;
-						DevelopmentTeam = DW6U68QQGB;
+						DevelopmentTeam = CVQAMENUR3;
 						LastSwiftMigration = 0800;
 						TestTargetID = 041EDBC81A625CEC00ECDA48;
 					};
@@ -235,8 +246,9 @@
 			files = (
 				041EDBD41A625CEC00ECDA48 /* Main.storyboard in Resources */,
 				041EDBF01A625D9200ECDA48 /* Envelope.png in Resources */,
+				B5618BFA1DAA86BC00D5034B /* TV_Themes_-_Pokemon.mid in Resources */,
 				041EDBF11A625D9200ECDA48 /* Swap.png in Resources */,
-				7807BD651DA9845C00921FCF /* LOTUS.png in Resources */,
+				B5AAD9691DA9F65D0049F730 /* LOTUS.png in Resources */,
 				041EDBD91A625CEC00ECDA48 /* LaunchScreen.xib in Resources */,
 				041EDBD61A625CEC00ECDA48 /* Images.xcassets in Resources */,
 				780B0AC11DA921BF00C804F8 /* tessdata in Resources */,
@@ -257,7 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				041EDBD11A625CEC00ECDA48 /* ViewController.swift in Sources */,
+				B56EDB1B1DAA37440040D37B /* ViewController.swift in Sources */,
 				041EDBCF1A625CEC00ECDA48 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -344,6 +356,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = "";
 			};
 			name = Debug;
 		};
@@ -383,6 +396,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = "";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -393,11 +407,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_CXX_LIBRARY = "compiler-default";
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = DW6U68QQGB;
+				DEVELOPMENT_TEAM = CVQAMENUR3;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/LoveInASnap",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/LoveInASnap/iOS",
 				);
 				INFOPLIST_FILE = LoveInASnap/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -416,11 +432,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_CXX_LIBRARY = "compiler-default";
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = DW6U68QQGB;
+				DEVELOPMENT_TEAM = CVQAMENUR3;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/LoveInASnap",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/LoveInASnap/iOS",
 				);
 				INFOPLIST_FILE = LoveInASnap/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -436,7 +454,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = DW6U68QQGB;
+				DEVELOPMENT_TEAM = CVQAMENUR3;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -458,7 +476,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = DW6U68QQGB;
+				DEVELOPMENT_TEAM = CVQAMENUR3;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
